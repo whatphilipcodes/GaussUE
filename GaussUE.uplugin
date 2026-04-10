@@ -1,0 +1,20 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Gauss Plugin",
+	"Description": "This Gaussian Splatting plugin makes the full 2D media to 3D Gaussians pipeline more artistically accessible.",
+	"Category": "3D",
+	"CreatedBy": "Philip Gerdes, Moritz Huson",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "GaussUE",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
