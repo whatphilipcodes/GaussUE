@@ -1,17 +1,17 @@
-#include "MyMinimalPlugin.h"
+#include "GaussUE.h"
 
-#define LOCTEXT_NAMESPACE "FMyMinimalPluginModule"
+#define LOCTEXT_NAMESPACE "FGaussUE"
 
-void FMyMinimalPluginModule::StartupModule()
+void FGaussUE::StartupModule()
 {
 	// This code will execute after your module is loaded into memory.
 }
 
-void FMyMinimalPluginModule::ShutdownModule()
+void FGaussUE::ShutdownModule()
 {
 	// This function may be called during shutdown to clean up your module.
 }
 
 #undef LOCTEXT_NAMESPACE
-	
-IMPLEMENT_MODULE(FMyMinimalPluginModule, MyMinimalPlugin)
+
+IMPLEMENT_MODULE(FGaussUE, MyMinimalPlugin)
